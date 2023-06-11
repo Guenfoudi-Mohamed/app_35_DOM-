@@ -11,10 +11,10 @@
 /* start body */
 body{min-height: 100vh;height: 100%;background-color:var(--bg-color);display: flex;}
 /* start container */
-body #container{max-width: 1440px;margin:auto;padding:30px 0px;}
+body #container{max-width: 1440px;margin:auto;padding:30px 20px;}
 body #container .title{font-family:var(--font-family);color: var(--color-white);text-align: center;padding: 20px;font-size: 3.5em;}
 body #container .title span{color: rgb(191, 255, 10);}
-body #container .cards{max-width: 90%; background-color: var(--color-white);padding: 25px;margin: 0px auto; display: flex;justify-content: space-evenly;align-items: center;gap: 25px;flex-wrap: wrap;}
+body #container .cards{background-color: var(--color-white);padding: 25px;margin: 0px auto; display: flex;justify-content: space-evenly;align-items: center;gap: 25px;flex-wrap: wrap;}
 
 body #container .cards .card{width: 250px;height: 350px;background-repeat: no-repeat;background-size: 100% 100%;position: relative;transform-style: preserve-3d;transition:transform 350ms;}
 body #container .cards .card:first-of-type{background-image: var(--ln-gradient), url('https://i.ibb.co/JpJVJxq/Background.png');}
